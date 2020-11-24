@@ -1,0 +1,21 @@
+Kariba,-16.5221,28.7617
+Tugwi Mukosi,-20.7278,30.9033
+Mutirikwi,-20.2489,31.0333
+Manyame,-17.8047,30.6156
+Osborne,-18.7664,32.4856
+Mazvikadei,-17.2206,30.3917
+Manyuchi,-21.0539,30.37
+Manjirenji,-20.6261,31.6094
+Sebakwe,-19.0333,30.25
+Chivero,-17.9003,30.7911
+Insiza,-20.3317,29.2550
+Zhovhe,-21.8413,29.7114
+Siya,-20.2474,31.6198
+Inyankuni,-20.3428,29.1153
+Mtshabezi,-20.5723,28.8415
+Upper Ncema,-20.2742,28.9758
+Mzingwane,-20.3939,28.9738
+Mazowe,-17.5217,30.9886
+Silalabuhwa,-20.7583,29.3606
+Lower Ncema,-20.35,29.0167
+Harava,-17.9905,31.1066
