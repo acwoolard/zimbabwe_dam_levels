@@ -6,12 +6,13 @@ class zimbabweSpider(scrapy.Spider):
 
     def parse(self, response):
 	
+        date = response.xpath("//*[@class='jtrt_table_MotherShipContainer']//text()").get()
 
         for row in response.xpath('//*[@class="jtTableContainer jtrespo-scroll  "]//tbody/tr')[1:]:
-            name=row.xpath('td[1]//text()').extract_first()
             
             yield {
-                'name' : name,
+                'date' : date,
+                'name' : row.xpath('td[1]//text()').extract_first(),
                 'full': row.xpath('td[2]//text()').extract_first(),
                 'current' : row.xpath('td[3]//text()').extract_first(),
 	    }

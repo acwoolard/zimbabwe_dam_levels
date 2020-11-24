@@ -14,6 +14,8 @@ class ZimbabwePipeline:
 
         adapter = ItemAdapter(item)
 
+        adapter["date"]=adapter["date"].split(" ")[-1]
+
         coords_dict = {}
 
         current_directory = os.path.dirname(__file__)
@@ -37,5 +39,7 @@ class ZimbabwePipeline:
 
         adapter["longitude"]=lon
         adapter["latitude"]=lat
+
+
 
         return item
